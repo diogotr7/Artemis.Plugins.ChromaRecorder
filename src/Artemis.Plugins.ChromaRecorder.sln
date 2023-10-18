@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGB.NET.Devices.RazerChromaAnimationRecorder", "RGB.NET.Devices.RazerChromaAnimationRecorder\RGB.NET.Devices.RazerChromaAnimationRecorder.csproj", "{429F2A1E-E2BB-400E-83F1-FCE162C3D85E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artemis.Plugins.ChromaAnimationRecorder", "Artemis.Plugins.ChromaAnimationRecorder\Artemis.Plugins.ChromaAnimationRecorder.csproj", "{7030CAF5-B90C-41F8-9135-1597B7E78A06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{429F2A1E-E2BB-400E-83F1-FCE162C3D85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429F2A1E-E2BB-400E-83F1-FCE162C3D85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429F2A1E-E2BB-400E-83F1-FCE162C3D85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429F2A1E-E2BB-400E-83F1-FCE162C3D85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7030CAF5-B90C-41F8-9135-1597B7E78A06}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{7030CAF5-B90C-41F8-9135-1597B7E78A06}.Debug|Any CPU.Build.0 = Debug|x64
+		{7030CAF5-B90C-41F8-9135-1597B7E78A06}.Release|Any CPU.ActiveCfg = Release|x64
+		{7030CAF5-B90C-41F8-9135-1597B7E78A06}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal

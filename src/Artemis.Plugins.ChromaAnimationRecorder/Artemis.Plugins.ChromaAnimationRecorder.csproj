@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Platforms>x64</Platforms>
+        <EnableDynamicLoading>true</EnableDynamicLoading>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ArtemisRGB.UI.Shared" IncludeAssets="compile;build;buildTransitive" Version="1.2023.1012-development" />
+        <PackageReference Include="ChromaAnimation" Version="1.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="plugin.json" CopyToOutputDirectory="PreserveNewest"/>
+        <PackageReference Include="ArtemisRGB.Plugins.BuildTask" Version="2.0.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RGB.NET.Devices.RazerChromaAnimationRecorder\RGB.NET.Devices.RazerChromaAnimationRecorder.csproj" />
+    </ItemGroup>
+</Project>

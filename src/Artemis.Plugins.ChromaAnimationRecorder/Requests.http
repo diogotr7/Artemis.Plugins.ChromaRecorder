@@ -1,0 +1,16 @@
+﻿### Keyboard Start
+POST http://localhost:9696/plugins/C260DA61-D885-4EED-A63A-23A7A16F8709/start
+Content-Type: application/json
+
+{
+  "DeviceType": "Keyboard"
+}
+
+### Keyboard Stop
+POST http://localhost:9696/plugins/C260DA61-D885-4EED-A63A-23A7A16F8709/stop
+Content-Type: application/json
+
+{
+  "DeviceType": "Keyboard",
+  "FileName": "Record_Keyboard.chroma"
+}

@@ -1,0 +1,15 @@
+{
+    "Guid": "C260DA61-D885-4EED-A63A-23A7A16F8709",
+    "Name": "Chroma animation recorder",
+    "Description": "Records animations into chroma animation files",
+    "Author": "diogotr7",
+    "Website": "",
+    "Repository": "",
+    "Icon": "QuestionMark",
+    "Version": "1.0.0.0",
+    "Main": "Artemis.Plugins.ChromaAnimationRecorder.dll",
+    "AutoEnableProperties": true,
+    "RequiresAdmin": false,
+    "Platforms": "Windows,Linux,OSX",
+    "Api": "1.0.0"
+}
